@@ -66,6 +66,22 @@ the same class of error that quietly corrupts a report if nobody reconciles the 
 
 ---
 
+## Dashboard (Power BI)
+
+An interactive Power BI dashboard built on the same public data, closing the
+loop from raw source to visual insight.
+
+**Page 1 — Overview:** funding vs enrolment trend and headline KPIs.
+[Overview](01_overview.png)
+
+**Page 2 — District Comparison:** per-district funding vs enrolment change
+(scatter, r = 0.91) and the districts that lost students yet gained funding.
+![Districts](02_districts.png)
+
+**Page 3 — Grant Breakdown:** how the grant mix shifted — new, growing, and
+discontinued grants.
+![Grants](03_grants.png)
+
 ## Tools
 
 **Python (pandas)** for data preparation · **SQL (SQLite)** for analysis — CTEs,
